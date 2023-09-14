@@ -10,6 +10,15 @@ Berikut adalah soal/pertanyaan yang perlu dijawab oleh peserta
 4. Apa yang anda ketahui tentang Automation testing serta sebutkan contohnya?
 5. Dengan menggunakan tools automation testing tersebut, biasanya menggunakan bahasa/tools apa?
 
+## Jawaban Knowledge base
+
+1. intinya Rest API adalah antar muka yang memudahkan client untuk berkomunikasi atau request data ke server.
+2. Server side processing adalah pemrosesan data yang terjadi di sisi server seperti pemrosesan permintaan client dan memberikan respon yang sesuai. Client side processing adalah pemrosesan yang terjadi di sisi client.
+3. Monolith adalah pendekatan dalam pengembangan perangkat lunak di mana seluruh aplikasi dibangun sebagai satu kesatuan yang besar dengan codebase yang sama. Semua komponen dan modul berjalan di bawah satu atap tunggal. Contohnya adalah aplikasi e-commerce besar yang memiliki semua fitur, seperti manajemen produk, pembayaran, otentikasi, dan lainnya dalam satu kode sumber.
+Microservices adalah pendekatan arsitektur perangkat lunak yang mengurai aplikasi besar menjadi serangkaian layanan yang lebih kecil dan independen dengan codebase yang terpisah - pisah. Setiap layanan memiliki tanggung jawab yang terpisah dan berkomunikasi melalui antarmuka yang didefinisikan. Sebagai contoh, dalam aplikasi e-commerce berbasis mikropelayanan, ada layanan terpisah untuk manajemen produk, pembayaran, otentikasi, dan mungkin banyak layanan lainnya, masing-masing dengan kemampuan uniknya.
+4. Automation testing adalah metode testing perangkat lunak yang dijalankan secara otomatis dengan menggunakan script yang dibuat oleh tester, contohnya adalah pengujian fitur login yang scriptnya sudah dibuat menggunakan framework selenium.
+5. Bila Selenium biasanya menggunakan bahasa Python. Namun selenium juga mendukung bahasa lainnya seperti Java dan C#.
+
 ## Use cases
 
 Suppose there was a transaction that had been done in tokopedia.com , the transaction
